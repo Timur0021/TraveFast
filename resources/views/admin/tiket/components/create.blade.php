@@ -183,6 +183,15 @@
             </select>
         </div>
         <div class="w-100"></div>
+        <div class="wb-3 col-10">
+            <label>Група</label>
+            <select name="group_id" class="form-control">
+                @foreach ($group as $groups)
+                <option value="{{ $groups->id }}">{{ $groups->name_group }}</option>
+                @endforeach
+            </select>
+        </div>
+        <div class="w-100"></div>
         <div class="mb-3 col-10">
           <label for="count" class="form-label">Кількість</label>
           <input name="count" type="text" class="form-control" id="count" placeholder="Ведіть кількість ...">

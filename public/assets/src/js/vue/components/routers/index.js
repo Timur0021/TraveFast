@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Main from '../Main.vue' 
-import Tiket from '../Tiket.vue' 
+import Bilet from '../Bilet.vue' 
 import Card from '../Card.vue'
+import Show from '../Show.vue'
 const routes = [
     {
         path: '/main',
@@ -9,12 +10,19 @@ const routes = [
     },
     {
         path: '/main/tiket',
-        component: Tiket
+        name: 'tiket',
+        component: Bilet
 
     },
     {
-        path: '/main/pay',
-        component: Card
+        path: '/main/tiket/:id',
+        name: 'tiket.show',
+        component: () => import('../Show.vue')
+    },
+    {
+        path: '/main/card',
+        name: 'card.index',
+        component: () => import('../Card.vue')
     },
 ]
 

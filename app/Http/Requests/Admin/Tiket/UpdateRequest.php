@@ -28,6 +28,7 @@ class UpdateRequest extends FormRequest
             'count' => 'required|integer',
             'bus_id' => 'required|string',
             'city_id' => 'required|string',
+            'group_id' => 'required|string',
         ];
     }
 }

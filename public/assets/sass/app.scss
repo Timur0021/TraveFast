@@ -10,8 +10,8 @@
 @import '../vendor/bootstrap/scss/bootstrap.scss';
 
 // HEADER
-@import './components/header';
-@import './components/footer';
+@import './components/admin/header';
+@import './components/admin/footer';
 
 // STYLING
 .navbar-light .navbar-nav .nav-link {

@@ -153,8 +153,8 @@
         <div class="mb-3 col-10">
             <label for="exampleInputFile">Фото Транспорту</label>
             <div class="w-50">
-                <img src="{{ url('storage/' . $tiket->image) }}" class="w-50 mb-3">
-              </div>
+              <img src="{{ url('storage/' . $tiket->image) }}" class="w-50 mb-3">
+            </div>
             <div class="input-group">
                 <div class="custom-file">
                     <input type="file" class="custom-file-input" name="image">
@@ -183,6 +183,15 @@
             <select name="city_id" class="form-control">
                 @foreach ($city as $cities)
                 <option value="{{ $cities->id }}"{{ $cities->id == $tiket->city_id ? ' selected' : '' }}>{{ $cities->name_city }}</option>
+                @endforeach
+            </select>
+        </div>
+        <div class="w-100"></div>
+        <div class="wb-3 col-10">
+            <label>Група</label>
+            <select name="group_id" class="form-control">
+                @foreach ($group as $groups)
+                <option value="{{ $groups->id }}"{{ $groups->id == $tiket->group_id ? ' selected' : '' }}>{{ $groups->name_group }}</option>
                 @endforeach
             </select>
         </div>

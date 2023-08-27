@@ -163,6 +163,7 @@
                   <th>Ціна</th>
                   <th>ID Міста</th>
                   <th>ID Транспорту</th>
+                  <th>ID Групи</th>
                   <th>Кількість</th>
                   <th>Деталі</th>
                   <th>Дата створення</th>
@@ -177,6 +178,7 @@
                     <td>{{ $tikets->price }}</td>
                     <td>{{ $tikets->city_id}}</td>
                     <td>{{ $tikets->bus_id}}</td>
+                    <td>{{ $tikets->group_id}}</td>
                     <td>{{ $tikets->count }}</td>
                     <td><a href="{{ route('admin.tiket.components.show', $tikets->id) }}"><i class="far fa-eye" style="color: #000000;"></i></a></td>
                     <td>{{ $tikets->created_at }}</td>

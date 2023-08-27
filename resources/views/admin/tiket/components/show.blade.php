@@ -48,7 +48,7 @@
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="{{ route('admin.city.index') }}">Назад</a></li>
+              <li class="breadcrumb-item"><a href="{{ route('admin.tiket.index') }}">Назад</a></li>
               <li class="breadcrumb-item active">Редагування Квиток</li>
             </ol>
           </div>

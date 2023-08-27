@@ -20,6 +20,14 @@
             </a>
           </li>
           <li>
+            <a href="{{ route('admin.group.index') }}">
+                <p>
+                  <i class="fa fa-layer-group" style="color: #c0bfbc;"></i>
+                  Групи
+                </p>  
+            </a>
+          </li>
+          <li>
             <a href="{{ route('admin.tiket.index') }}">
                 <p>
                   <i class="fa fa-money-bill" style="color: #c0bfbc;"></i>
@@ -40,6 +48,14 @@
                 <p>
                   <i class="fa fa-bus" style="color: #c0bfbc;"></i>
                   Транспорт
+                </p>  
+            </a>
+          </li>
+          <li>
+            <a href="{{ route('admin.themecite.index') }}">
+                <p>
+                  <i class="fa fa-image" style="color: #c0bfbc;"></i>
+                  Тема Сайту
                 </p>  
             </a>
           </li>

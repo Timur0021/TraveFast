@@ -9159,64 +9159,6 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-.travel-header .logo img {
-  width: 8rem;
-  border-radius: 50px;
-}
-.travel-header.travel-landing-header {
-  background-image: linear-gradient(90deg, #f5f5f5 0%, #f5f5f5 55%, #cdcdcd 55%, #cdcdcd 100%);
-}
-.travel-header.travel-landing-header .carousel-indicators {
-  top: 0;
-  left: auto;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
-.travel-header.travel-landing-header .carousel-indicators li {
-  height: auto;
-  border: 0;
-  text-indent: 0;
-  background-color: transparent;
-  font-size: 21px;
-  font-weight: 700;
-  color: #000;
-  line-height: 2.14;
-}
-.travel-header.travel-landing-header .carousel-content-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.travel-header.travel-landing-header .carousel-content-wrapper h1 {
-  margin-bottom: 22px;
-}
-.travel-header.travel-landing-header .carousel-content-wrapper p {
-  margin-bottom: 22px;
-}
-.travel-header.travel-landing-header .carousel-content-wrapper .carousel-content-btns .btn {
-  padding: 18px 34px;
-  font-size: 18px;
-  font-weight: 700;
-  color: #fff;
-  margin-right: 24px;
-  margin-bottom: 24px;
-}
-.travel-header.travel-landing-header .carousel-content-wrapper .carousel-content-btns .btn:last-child {
-  margin-right: 0;
-}
-.travel-header.travel-landing-header .carousel-img-wrapper {
-  display: flex;
-  padding-top: 95px;
-  justify-content: center;
-  align-items: flex-end;
-}
-.travel-header .nav-link {
-  font-size: 16px;
-  line-height: 1;
-  font-weight: 700;
-}
-
 .travel-footer-banner-section {
   z-index: 1;
   position: relative;

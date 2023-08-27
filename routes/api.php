@@ -20,3 +20,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/tiket', App\Http\Controllers\Api\Bilets\IndexController::class);
+Route::get('/tiket/{tiket}', App\Http\Controllers\Api\Bilets\ShowController::class);
+Route::get('/theme', App\Http\Controllers\Api\Theme\IndexController::class);

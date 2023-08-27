@@ -11,6 +11,6 @@ class PayController extends Controller
 {
     public function __invoke()
     {
-        return view('user.card.pay');
+        return view('user.card.card');
     }
 }
