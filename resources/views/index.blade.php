@@ -64,9 +64,9 @@
                     <div class="container ">
                         <div class="row">
                             <div class="menu-info d-flex justify-content-between align-items-center">
-                                <div class="menubar"> <span></span> <span></span> <span></span> </div> 
+                                <div class="menubar"> <span></span> <span></span> <span></span> </div>
                                 <a href="index.html"> <img src="{{asset('assets/images/logo/logos.png')}}" alt="">  </a>
-                                <div class="cart-holder"> 
+                                <div class="cart-holder">
                                     <a href="#0" class="cart cart-icon position-relative">
                                      <i class="flaticon-shopping-cart"></i>
                                     </a>
@@ -84,20 +84,20 @@
                                     class="logo"> <img src="{{asset('assets/images/logo/logos.png')}}" style="width: 10rem;" alt=""> </a>
                                 <nav>
                                     <ul class="page-dropdown-menu d-flex align-items-center justify-content-center">
-                                        <li class="dropdown-list"> 
+                                        <li class="dropdown-list">
                                             <a href="#0">
                                                 Головна
                                             </a>
                                         </li>
-                                        <li class="dropdown-list"> 
+                                        <li class="dropdown-list">
                                             <a href="{{ route('user.index') }}">
-                                                Групи Квитків 
+                                                Групи Квитків
                                             </a>
                                         </li>
-                                        <li class="dropdown-list"> 
+                                        <li class="dropdown-list">
                                             <a href="#0">
                                                 Скарги
-                                            </a> 
+                                            </a>
                                         </li>
                                         <li class="dropdown-list"> <a href="contact.html">Акції</a> </li>
                                     </ul>
@@ -108,9 +108,9 @@
                 </div>
             </div>
         </div>
-    </header> 
+    </header>
     <main class="overflow-hidden">
-        <!-- newsLetter_popup Start --> 
+        <!-- newsLetter_popup Start -->
            <button data-mfp-src="#newsLetter-popup" class="modal-btn d-none"></button>
         <div id="newsLetter-popup" class="mfp-hide p-4" role="dialog">
             <div class="row align-items-center justify-content-center">
@@ -135,7 +135,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
         <!--Start Testimonial Two-->
         <section class="testimonial-two pt-120 pb-120">
             <div class="container">
@@ -275,9 +275,9 @@
                 <div class="row justify-content-center">
                     <!--Start Blog Two Single-->
                     <div class="col-lg-4 col-md-6 wow fadeInUp animated ">
-                        <div class="blog-two__single mt-30"> 
+                        <div class="blog-two__single mt-30">
                             <a href="blog-single.html" class="blog-two__single-img">
-                                <img src="assets/images/blog/blog-v2-1.jpg" alt="" /> 
+                                <img src="assets/images/blog/blog-v2-1.jpg" alt="" />
                             </a>
                             <div class="blog-two__single-content pt-1">
                                 <div class="meta-box">
@@ -457,18 +457,18 @@
     </footer>
     <!--==== Js Scripts Start ====-->
     <!-- Jquery v3.6.0 Js -->
-    <script src="{{ asset('assets/js/jqurey.v3.6.0.min.js') }}"></script> 
-    <script src="{{ asset('assets/js/popper.v2.9.3.min.js') }}"></script> 
-    <script src="{{ asset('assets/js/bootstrap.v5.1.1.min.js') }}"></script> 
-    <script src="{{ asset('assets/js/plugin/jquery-ui.min.js') }}"></script> 
+    <script src="{{ asset('assets/js/jqurey.v3.6.0.min.js') }}"></script>
+    <script src="{{ asset('assets/js/popper.v2.9.3.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.v5.1.1.min.js') }}"></script>
+    <script src="{{ asset('assets/js/plugin/jquery-ui.min.js') }}"></script>
     <script src="{{ asset('assets/js/plugin/jarallax.min.js')}}"></script>
-    <script src="{{ asset('assets/js/plugin/isotope.js')}}"></script> 
-    <script src="{{ asset('assets/js/plugin/slick.min.js') }}"></script> 
-    <script src="{{ asset('assets/js/plugin/jquery.magnific-popup.min.js') }}"></script> 
-    <script src="{{ asset('assets/js/plugin/tweenMax.min.js')}}"></script> 
-    <script src="{{ asset('assets/js/plugin/nice-select.v1.0.min.js') }}"></script> 
-    <script src="{{ asset('assets/js/plugin/wow.v1.3.0.min.js') }}"></script> 
-    <script src="{{ asset('assets/js/plugin/jquery.countdown.min.js') }}"></script> 
+    <script src="{{ asset('assets/js/plugin/isotope.js')}}"></script>
+    <script src="{{ asset('assets/js/plugin/slick.min.js') }}"></script>
+    <script src="{{ asset('assets/js/plugin/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('assets/js/plugin/tweenMax.min.js')}}"></script>
+    <script src="{{ asset('assets/js/plugin/nice-select.v1.0.min.js') }}"></script>
+    <script src="{{ asset('assets/js/plugin/wow.v1.3.0.min.js') }}"></script>
+    <script src="{{ asset('assets/js/plugin/jquery.countdown.min.js') }}"></script>
   <script src="{{ asset('assets/js/main.js') }}"></script>
   <script src="{{ asset('plugins/jquery/jquery.min.js') }}"></script>
   <!-- jQuery UI 1.11.4 -->
